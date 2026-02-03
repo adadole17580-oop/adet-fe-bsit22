@@ -1,0 +1,25 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+article {
+  background-color: #dabdbd;
+  padding: 16px;
+  border-radius: 6px;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  background-color: #dba9a9;
+}
+button:hover {
+  background-color: #d5d5d5;
+}
+button:active {
+  background-color: #d87171;
+}
